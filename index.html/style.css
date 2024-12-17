@@ -1,0 +1,70 @@
+/* General styling for the quiz container */
+#quiz {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the question */
+#question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label styling for answers */
+label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Styling the radio buttons */
+input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #5cb85c; /* Green color for selected radio button */
+}
+
+/* Styling for answer text */
+#_text {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Submit button styling */
+#submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Styling for when a radio button is selected */
+input[type="radio"]:checked + span {
+    color: #007bff;
+}
+
+/* Optional: Add some padding around the quiz container for better spacing */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
